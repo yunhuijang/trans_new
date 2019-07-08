@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" description="CPN Tools simulation log" xsi:noNamespaceSchemaLocation="http://is.tm.tue.nl/research/processmining/SAMXML.xsd">
+	<Source program="CPN Tools simulation" />
+	<Process description="Simulated process" id="DEFAULT">
+		<ProcessInstance description="Simulated process instance" id="1">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="10">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="11">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="12">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="13">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="14">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="15">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="16">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="17">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="18">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="19">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="2">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="20">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="21">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="3">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>d</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>g</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="4">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="5">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="6">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="7">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="8">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>f</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance description="Simulated process instance" id="9">
+			<Data>
+			</Data>
+			<AuditTrailEntry>
+			<WorkflowModelElement>a</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>b</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>c</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+			<WorkflowModelElement>e</WorkflowModelElement>
+			<EventType>complete</EventType>
+			<Timestamp>1970-01-01T01:00:00.000+01:00</Timestamp>
+			<Originator />
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</log>

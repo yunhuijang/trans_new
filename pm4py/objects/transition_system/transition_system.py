@@ -49,6 +49,9 @@ class TransitionSystem(object):
         def __get_to_state(self):
             return self.__to_state
 
+        def __repr__(self):
+            return str(self.name) + ": " + str(self.from_state) + " -> " + str(self.to_state)
+
         def __set_to_state(self, to_state):
             self.__to_state = to_state
 
@@ -60,9 +63,6 @@ class TransitionSystem(object):
 
         def __get_data(self):
             return self.__data
-
-        def __repr__(self):
-            return str(self.name)
 
         name = property(__get_name)
         from_state = property(__get_from_state, __set_from_state)

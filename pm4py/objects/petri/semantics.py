@@ -2,20 +2,6 @@ import copy
 
 
 def is_enabled(t, pn, m):
-    """
-    Verifies whether a given transition is enabled in a given Petri net and marking
-
-    Parameters
-    ----------
-    :param t: transition to check
-    :param pn: Petri net
-    :param m: marking to check
-
-    Returns
-    -------
-    :return: true if enabled, false otherwise
-    """
-
     if t not in pn.transitions:
         return False
     else:

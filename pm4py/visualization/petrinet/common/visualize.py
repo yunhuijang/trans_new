@@ -101,6 +101,8 @@ def graphviz_visualization(net, image_format="png", initial_marking=None, final_
                 viz.node(str(t.name), str(t.name))
             else:
                 viz.node(str(t.name), "", style='filled', fillcolor="black")
+        # if t.is_hidden:
+        #     viz.node(str(t.name), style = 'filled', fillcolor = 'red')
 
     # places
     viz.attr('node', shape='circle', fixedsize='true', width='0.75')
@@ -109,11 +111,13 @@ def graphviz_visualization(net, image_format="png", initial_marking=None, final_
             viz.node(str(p.name), str(initial_marking[p]), style='filled', fillcolor="green")
         elif p in final_marking:
             viz.node(str(p.name), "", style='filled', fillcolor="orange")
+        # elif p.is_hidden:
+        #     viz.node(str(p.name), style='filled', fillcolor='red')
         else:
             if debug:
                 viz.node(str(p.name), str(p.name))
             else:
-                viz.node(str(p.name), "")
+                viz.node(str(p.name), str(p.name))
 
     # arcs
     for a in net.arcs:

@@ -27,3 +27,4 @@ def visualize(ts, parameters=None):
     viz.format = image_format
 
     return viz
+
