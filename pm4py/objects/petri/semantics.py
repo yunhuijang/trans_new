@@ -27,7 +27,7 @@ def execute(t, pn, m):
     """
 
     if not is_enabled(t, pn, m):
-        return None
+        return m
 
     m_out = copy.copy(m)
     for a in t.in_arcs:

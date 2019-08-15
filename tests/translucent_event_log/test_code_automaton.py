@@ -11,23 +11,23 @@ net, initial_marking, final_marking = alpha_miner.apply(log)
 
 tel = log_to_tel(net, initial_marking, final_marking, log)
 
-for trace in tel:
-    for event in trace:
-        print(event['enabled'])
-        print(event['concept:name'])
-
+# for trace in tel:
+#     for event in trace:
+#         print(event['enabled'])
+#         print(event['concept:name'])
+#
 auto = utils.discover_annotated_automaton(tel)
-for trans in auto.transitions:
-    print(trans)
-    print(trans.afreq)
-    print(trans.atsum)
-    print(trans.atavg)
-
-for states in auto.states:
-    print(states)
-    print(states.sfreq)
-    print(states.stsum)
-    print(states.stavg)
+# for trans in auto.transitions:
+#     print(trans)
+#     print(trans.afreq)
+#     print(trans.atsum)
+#     print(trans.atavg)
+#
+# for states in auto.states:
+#     print(states)
+#     print(states.sfreq)
+#     print(states.stsum)
+#     print(states.stavg)
 
 gviz = vis_factory.apply(auto)
 vis_factory.view(gviz) #show automaton

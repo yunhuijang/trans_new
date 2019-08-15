@@ -55,6 +55,10 @@ def get_xes_attr_value(attr_value, attr_type_xes):
         else:
             default_date_repr = attr_value.strftime('%Y-%m-%d %H:%M:%S.%f')[:-3] + "+00:00"
         return default_date_repr.replace(" ", "T")
+
+    if isinstance(attr_value, frozenset):
+        attr_value = set(attr_value)
+
     return str(attr_value)
 
 

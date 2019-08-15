@@ -89,6 +89,9 @@ class TransitionSystem(object):
     def __set_transitions(self, transitions):
         self.__transitions = transitions
 
+    def __set_states(self, states):
+        self.__states = states
+
     name = property(__get_name, __set_name)
-    states = property(__get_states)
+    states = property(__get_states, __set_states)
     transitions = property(__get_transitions, __set_transitions)

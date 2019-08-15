@@ -1,4 +1,6 @@
-from tests.translucent_event_log.objects.automaton import transition_system as ts
+from tests.translucent_event_log_new.objects.automaton import transition_system as ts
+from tests.translucent_event_log_new.objects.automaton import defaults
+from datetime import timedelta
 
 def add_arc_from_to(name, fr, to, auto, data=None):
     """
@@ -47,8 +49,6 @@ def discover_automaton(tel):
     for trace in tel:
         for event in trace:
             en = event['enabled']
-            if type(en) is set:
-                en = frozenset(en)
             if en not in enabled_set:
                 auto.states.add(ts.TransitionSystem.State(en, id))
                 id+=1
@@ -83,7 +83,7 @@ def discover_automaton(tel):
 
     return auto
 
-def discover_annotated_automaton(tel):
+def apply_annotated_automaton(tel):
     '''
     Makes annotated Discovered Automaton from accepting automaton
 
@@ -121,14 +121,10 @@ def discover_annotated_automaton(tel):
     for state in state_list:
         if state.name == {'final'}:  # set state annotations for final state
             state.sfreq = n
-            state.stsum = 0
-            state.stavg = 0
+            state.stsum = timedelta(days=0)
+            state.stavg = timedelta(days=0)
         else:
-            if state.sfreq == 0:
-                state.stsum = 0
-                state.stavg = 0
-            else:
-                state.stavg = state.stsum / state.sfreq
+            state.stavg = state.stsum / state.sfreq
 
     for trans in trans_list:  # set transition annotations for transitions goes to final state
         if trans.afreq == 0:
@@ -142,3 +138,48 @@ def discover_annotated_automaton(tel):
 
 
     return aut
+
+def discover_annotated_automaton(tel, parameters = None):
+    '''
+    Discovers annotated automaton with thresholds
+
+    Parameters
+    -----------
+    tel
+        translucent event log
+    parameters
+        Possible parameters of the algorithm,
+        afreq_thresh, atsum_thresh, atavg_thresh, sfreq_thresh, stsum_thresh, stavg_thresh
+
+    Returns
+    ---------
+    ann_auto
+        annotated automaton applying threshold
+
+    '''
+
+    if parameters is None:
+        parameters ={}
+
+    afreq_thresh = parameters[
+        defaults.AFREQ_THRESH] if defaults.AFREQ_THRESH in parameters else defaults.DEFAULT_AFREQ_THRESH
+    atsum_thresh = parameters[
+        defaults.ATSUM_THRESH] if defaults.ATSUM_THRESH in parameters else defaults.DEFAULT_ATSUM_THRESH
+    atavg_thresh = parameters[
+        defaults.ATAVG_THRESH] if defaults.ATAVG_THRESH in parameters else defaults.DEFAULT_ATAVG_THRESH
+    sfreq_thresh = parameters[
+        defaults.SFREQ_THRESH] if defaults.SFREQ_THRESH in parameters else defaults.DEFAULT_SFREQ_THRESH
+    stsum_thresh = parameters[
+        defaults.STSUM_THRESH] if defaults.STSUM_THRESH in parameters else defaults.DEFAULT_STSUM_THRESH
+    stavg_thresh = parameters[
+        defaults.STAVG_THRESH] if defaults.STAVG_THRESH in parameters else defaults.DEFAULT_STAVG_THRESH
+
+    auto = apply_annotated_automaton(tel)
+    auto.filter(afreq_thresh = afreq_thresh, atsum_thresh = atsum_thresh,
+                   atavg_thresh = atavg_thresh, sfreq_thresh = sfreq_thresh,
+                   stsum_thresh = stsum_thresh, stavg_thresh = stavg_thresh)
+
+    return auto
+
+
+
