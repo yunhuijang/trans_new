@@ -1,6 +1,5 @@
 import sys
 from collections import Counter
-
 from pm4py import util as pmutil
 from pm4py.algo.discovery.dfg.versions import native as dfg_inst
 from pm4py.algo.discovery.inductive.util import shared_constants
@@ -12,6 +11,9 @@ from pm4py.algo.filtering.log.end_activities import end_activities_filter
 from pm4py.algo.filtering.log.start_activities import start_activities_filter
 from pm4py.objects.conversion.process_tree import factory as tree_to_petri
 from pm4py.objects.log.util import xes as xes_util
+
+from tests.translucent_event_log_new.objects.tel import tel
+from tests.translucent_event_log_new.algo.discover_petrinet import inductive_revise
 
 sys.setrecursionlimit(shared_constants.REC_LIMIT)
 
@@ -50,8 +52,12 @@ def apply(log, parameters):
     enable_reduction = parameters["enable_reduction"] if "enable_reduction" in parameters else True
 
     # get the DFG
-    dfg = [(k, v) for k, v in dfg_inst.apply(log, parameters={
-        pmutil.constants.PARAMETER_CONSTANT_ACTIVITY_KEY: activity_key}).items() if v > 0]
+    if isinstance(log[0][0], tel.Event):
+        dfg = [(k, v) for k, v in inductive_revise.get_dfg_graph_trans(log, parameters={
+            pmutil.constants.PARAMETER_CONSTANT_ACTIVITY_KEY: activity_key}).items() if v > 0]
+    else:
+        dfg = [(k, v) for k, v in dfg_inst.apply(log, parameters={
+            pmutil.constants.PARAMETER_CONSTANT_ACTIVITY_KEY: activity_key}).items() if v > 0]
 
     # get the activities in the log
     activities = attributes_filter.get_attribute_values(log, activity_key)
@@ -120,8 +126,13 @@ def apply_tree(log, parameters):
     activity_key = parameters[pmutil.constants.PARAMETER_CONSTANT_ACTIVITY_KEY]
 
     # get the DFG
-    dfg = [(k, v) for k, v in dfg_inst.apply(log, parameters={
-        pmutil.constants.PARAMETER_CONSTANT_ACTIVITY_KEY: activity_key}).items() if v > 0]
+
+    if isinstance(log[0][0], tel.Event):
+        dfg = [(k, v) for k, v in inductive_revise.get_dfg_graph_trans(log, parameters={
+            pmutil.constants.PARAMETER_CONSTANT_ACTIVITY_KEY: activity_key}).items() if v > 0]
+    else:
+        dfg = [(k, v) for k, v in dfg_inst.apply(log, parameters={
+            pmutil.constants.PARAMETER_CONSTANT_ACTIVITY_KEY: activity_key}).items() if v > 0]
 
     # gets the start activities from the log
     start_activities = start_activities_filter.get_start_activities(log, parameters=parameters)

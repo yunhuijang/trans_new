@@ -101,7 +101,7 @@ def is_region(auto, r):
             trans_dict[trans.name] += 1000
 
     for t in trans_dict:
-        if trans_dict[t] not in {1,10,100,1000, 11}:
+        if trans_dict[t] not in {1, 10, 100, 1000, 11}:
             return False, trans_dict
 
     return True, trans_dict
@@ -127,7 +127,7 @@ def expand_states(auto, r, R, explored):
 
     is_reg, trans_dict = is_region(auto, r)
     if is_reg:
-        for re in R:
+        for re in R.copy():
             if r.issubset(re):
                 R.remove(re) #remove supersets of r
         flag = True
@@ -150,7 +150,7 @@ def expand_states(auto, r, R, explored):
     for trans in auto.transitions:
         if trans.name == e.name:
             trans_set.add(trans)
-    if num in {1001, 101, 1011, 111, 1100}: #lemma 1, 2
+    if num in {1001, 101, 1011, 111, 1100, 1111, 1101, 1110}: #lemma 1, 2
         rr = r
         for t in trans_set:
             if t.to_state in r and t.from_state not in r:

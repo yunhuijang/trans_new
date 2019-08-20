@@ -5,7 +5,7 @@ from lxml import etree
 
 from pm4py.objects import log as log_lib
 from pm4py.objects.log.importer.xes.versions.iterparse_xes import __parse_attribute
-from tests.translucent_event_log.objects.tel import tel as tel_lib
+from tests.translucent_event_log_new.objects.tel import tel as tel_lib
 from pm4py.objects.petri import semantics
 from pm4py.objects.petri.common import initial_marking as ini
 from pm4py.algo.discovery.alpha import factory as alpha_miner

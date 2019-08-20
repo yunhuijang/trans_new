@@ -6,6 +6,7 @@ from tests.translucent_event_log_new.objects.tel.importer.xes import iterparse_t
 
 from pm4py.objects.log.exporter.xes import factory as xes_exporter
 from pm4py.visualization.petrinet import factory as vis_factory
+from pm4py.visualization.transition_system import factory as trans_fact
 from tests.translucent_event_log.objects.tel import utils
 from tests.translucent_event_log_new.algo.discover_petrinet import state_based_region as sb
 
@@ -20,15 +21,9 @@ for trace in tel:
         print(event['enabled'])
         print(event['concept:name'])
 
-auto = utils.discover_annotated_automaton(tel)
 
-# nett, im, fm = sb.petri_net_synthesis(auto)
-#
-# gviz = vis_factory.apply(nett, im, fm)
-# vis_factory.view(gviz)
-#
-# output_path = os.path.join("output_data", "receipt_tel.xes")
-# xes_exporter.export_log(tel, output_path)
+output_path = os.path.join("input_data", "running-example_tel.xes")
+xes_exporter.export_log(tel, output_path)
 
 
 

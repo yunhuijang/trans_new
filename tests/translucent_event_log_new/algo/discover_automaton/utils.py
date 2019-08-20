@@ -123,6 +123,9 @@ def apply_annotated_automaton(tel):
             state.sfreq = n
             state.stsum = timedelta(days=0)
             state.stavg = timedelta(days=0)
+        elif state.sfreq == 0:
+            state.stavg = timedelta(days=0)
+            state.stsum = timedelta(days=0)
         else:
             state.stavg = state.stsum / state.sfreq
 

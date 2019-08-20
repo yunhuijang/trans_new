@@ -180,6 +180,9 @@ def apply_dfg_sa_ea(dfg, start_activities, end_activities, parameters=None):
     return net, Marking({src: 1}), Marking({sink: 1})
 
 
+
+
+
 def __add_source(net, start_activities, label_transition_dict):
     source = petri.petrinet.PetriNet.Place('start')
     net.places.add(source)

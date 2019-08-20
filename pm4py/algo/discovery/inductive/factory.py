@@ -1,5 +1,6 @@
 import pandas
-
+import tests.translucent_event_log_new
+from tests.translucent_event_log_new.algo.discover_petrinet.inductive_revise import get_dfg_graph_trans
 from pm4py import util as pmutil
 from pm4py.algo.discovery.dfg.adapters.pandas import df_statistics
 from pm4py.algo.discovery.inductive.versions.dfg import imdfa, imdfb
