@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:13:42.849+02:00"/>
+      <string key="concept:name" value="receive_application_3"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="13"/>
+      <string key="enabled" value="{'receive_application_3'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:14:11.280+02:00"/>
+      <string key="concept:name" value="check_for_completeness_4"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="13"/>
+      <string key="enabled" value="{'check_for_completeness_4'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:14:26.165+02:00"/>
+      <string key="concept:name" value="check_loan_amount_6"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="13"/>
+      <string key="enabled" value="{'check_loan_amount_6'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:15:09.195+02:00"/>
+      <string key="concept:name" value="perform_checks_for_small_amount_8"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="13"/>
+      <string key="enabled" value="{'perform_checks_for_small_amount_8'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:15:29.105+02:00"/>
+      <string key="concept:name" value="make_decision_9"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="13"/>
+      <string key="enabled" value="{'make_decision_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:16:57.538+02:00"/>
+      <string key="concept:name" value="notify_rejection_12"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="13"/>
+      <string key="enabled" value="{'notify_rejection_12'}"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:18:37.863+02:00"/>
+      <string key="concept:name" value="receive_application_3"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'receive_application_3'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:18:56.954+02:00"/>
+      <string key="concept:name" value="check_for_completeness_4"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'check_for_completeness_4'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:19:15.032+02:00"/>
+      <string key="concept:name" value="get_more_info_5"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'get_more_info_5'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:19:38.809+02:00"/>
+      <string key="concept:name" value="check_for_completeness_4"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'check_for_completeness_4'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:19:59.302+02:00"/>
+      <string key="concept:name" value="check_loan_amount_6"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'check_loan_amount_6'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:20:16.643+02:00"/>
+      <string key="concept:name" value="perform_checks_for_large_amount_7"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'perform_checks_for_large_amount_7'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:20:41.182+02:00"/>
+      <string key="concept:name" value="make_decision_9"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'make_decision_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:21:06.271+02:00"/>
+      <string key="concept:name" value="start_approval_23"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'start_approval_23'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T10:15:25.287+02:00"/>
+      <string key="concept:name" value="deliver_credit_card_11"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'notify_acceptance_10', 'deliver_credit_card_11'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T10:15:29.491+02:00"/>
+      <string key="concept:name" value="notify_acceptance_10"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="14"/>
+      <string key="enabled" value="{'notify_acceptance_10'}"/>
+    </event>
+  </trace>
+</log>

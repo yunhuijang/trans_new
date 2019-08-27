@@ -1,0 +1,4 @@
+8
+<Data>
+<Attribute name = "fineNumber" modelReference = "http://www.ip-super.org/ontology#fineID">8 </Attribute>
+</Data>

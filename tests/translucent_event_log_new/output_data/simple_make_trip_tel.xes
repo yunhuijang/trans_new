@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <date key="time:timestamp" value="2019-04-09T13:38:47.210+02:00"/>
+      <string key="concept:name" value="register_3"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="8"/>
+      <string key="enabled" value="{'register_3'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-04-09T13:40:20.705+02:00"/>
+      <string key="concept:name" value="book_flight_8"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="8"/>
+      <string key="enabled" value="{'book_car_10', 'book_flight_8', 'book_hotel_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-04-09T13:40:31.006+02:00"/>
+      <string key="concept:name" value="book_hotel_9"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="8"/>
+      <string key="enabled" value="{'book_car_10', 'book_hotel_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-04-09T13:40:38.814+02:00"/>
+      <string key="concept:name" value="book_car_10"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="8"/>
+      <string key="enabled" value="{'book_car_10'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-04-09T13:41:11.631+02:00"/>
+      <string key="concept:name" value="pay_11"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="8"/>
+      <string key="enabled" value="{'pay_11'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-29T14:12:05.002+02:00"/>
+      <string key="concept:name" value="book_hotel_9"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="8"/>
+      <string key="enabled" value="{'book_hotel_9'}"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <date key="time:timestamp" value="2019-06-04T11:48:08.325+02:00"/>
+      <string key="concept:name" value="register_3"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="9"/>
+      <string key="enabled" value="{'register_3'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-06-04T11:48:44.764+02:00"/>
+      <string key="concept:name" value="book_car_10"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="9"/>
+      <string key="enabled" value="{'book_car_10'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-06-04T11:49:08.656+02:00"/>
+      <string key="concept:name" value="pay_11"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="9"/>
+      <string key="enabled" value="{'pay_11'}"/>
+    </event>
+  </trace>
+  <trace/>
+  <trace>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:01:22.196+02:00"/>
+      <string key="concept:name" value="register_3"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="15"/>
+      <string key="enabled" value="{'register_3'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:01:54.289+02:00"/>
+      <string key="concept:name" value="book_car_10"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="15"/>
+      <string key="enabled" value="{'book_car_10', 'book_flight_8', 'book_hotel_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:01:57.529+02:00"/>
+      <string key="concept:name" value="book_flight_8"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="15"/>
+      <string key="enabled" value="{'book_flight_8', 'book_hotel_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:02:22.696+02:00"/>
+      <string key="concept:name" value="book_hotel_9"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="15"/>
+      <string key="enabled" value="{'book_hotel_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:02:38.198+02:00"/>
+      <string key="concept:name" value="pay_11"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="15"/>
+      <string key="enabled" value="{'pay_11'}"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:04:01.788+02:00"/>
+      <string key="concept:name" value="register_3"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="16"/>
+      <string key="enabled" value="{'register_3'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:04:18.285+02:00"/>
+      <string key="concept:name" value="book_hotel_9"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="16"/>
+      <string key="enabled" value="{'book_car_10', 'book_hotel_9'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:04:36.982+02:00"/>
+      <string key="concept:name" value="book_car_10"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="16"/>
+      <string key="enabled" value="{'book_car_10'}"/>
+    </event>
+    <event>
+      <date key="time:timestamp" value="2019-07-30T11:05:04.838+02:00"/>
+      <string key="concept:name" value="pay_11"/>
+      <string key="lifecycle:transition" value="complete"/>
+      <string key="lifecycle:instance" value="16"/>
+      <string key="enabled" value="{'pay_11'}"/>
+    </event>
+  </trace>
+</log>
