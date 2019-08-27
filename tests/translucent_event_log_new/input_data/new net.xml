@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><pnml>
+    <net type="VIPschema.xsd">
+        <place provider="petrinet.provider.place" id="1">
+            <name>
+                <value>A</value>
+                <graphics>
+                    <offset x="5" y="33"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="16" y="155"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place provider="petrinet.provider.place" id="2">
+            <name>
+                <value>B</value>
+                <graphics>
+                    <offset x="5" y="33"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="188" y="74"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place provider="petrinet.provider.place" id="3">
+            <name>
+                <value>C</value>
+                <graphics>
+                    <offset x="5" y="33"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="184" y="244"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place provider="petrinet.provider.place" id="4">
+            <name>
+                <value>D</value>
+                <graphics>
+                    <offset x="5" y="33"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="437" y="35"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place provider="petrinet.provider.place" id="5">
+            <name>
+                <value>E</value>
+                <graphics>
+                    <offset x="5" y="33"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="440" y="177"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place provider="petrinet.provider.place" id="6">
+            <name>
+                <value>F</value>
+                <graphics>
+                    <offset x="5" y="33"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="438" y="338"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <place provider="petrinet.provider.place" id="7">
+            <name>
+                <value>G</value>
+                <graphics>
+                    <offset x="5" y="33"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <token id="viptool.petrinet.datastructure.Token@1000" provider="petrinet.provider.token">
+                    <value>0</value>
+                </token>
+            </initialMarking>
+            <graphics>
+                <position x="719" y="166"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="curve" style="solid" width="1"/>
+            </graphics>
+        </place>
+        <transition provider="petrinet.provider.transition" id="8">
+            <name>
+                <value>a</value>
+                <graphics>
+                    <offset x="4" y="31"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="105" y="156"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition provider="petrinet.provider.transition" id="9">
+            <name>
+                <value>b</value>
+                <graphics>
+                    <offset x="4" y="31"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="312" y="16"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition provider="petrinet.provider.transition" id="11">
+            <name>
+                <value>c</value>
+                <graphics>
+                    <offset x="4" y="31"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="328" y="328"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition provider="petrinet.provider.transition" id="12">
+            <name>
+                <value>e</value>
+                <graphics>
+                    <offset x="4" y="31"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="592" y="40"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition provider="petrinet.provider.transition" id="13">
+            <name>
+                <value>f</value>
+                <graphics>
+                    <offset x="4" y="31"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="596" y="174"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition provider="petrinet.provider.transition" id="14">
+            <name>
+                <value>g</value>
+                <graphics>
+                    <offset x="4" y="31"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="616" y="324"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <transition provider="petrinet.provider.transition" id="10">
+            <name>
+                <value>d</value>
+                <graphics>
+                    <offset x="4" y="31"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="0" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </name>
+            <graphics>
+                <position x="313" y="170"/>
+                <dimension x="32" y="32"/>
+                <fill color="rgb(255, 255, 255)"/>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </transition>
+        <arc provider="petrinet.provider.weightededge" id="" source="10" target="6">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="5" target="10">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="10" target="3">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="10" target="2">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="4" target="10">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="13" target="7">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="14" target="7">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="6" target="14">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="5" target="12">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="5" target="13">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="11" target="5">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="3" target="11">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="8" target="3">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="12" target="7">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="4" target="12">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="9" target="4">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="2" target="9">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="8" target="2">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+        <arc provider="petrinet.provider.weightededge" id="" source="1" target="8">
+            <inscription>
+                <value>1</value>
+                <graphics>
+                    <anchor distance="30.0" segment="0"/>
+                    <offset x="4" y="-7"/>
+                    <fill color="rgb(255, 255, 255)"/>
+                    <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+                    <font family="SansSerif" orientation="1" posture="0.0" rotation="0.0" size="10.0" weight="1.0"/>
+                </graphics>
+            </inscription>
+            <graphics>
+                <line color="rgb(0, 0, 0)" shape="line" style="solid" width="1"/>
+            </graphics>
+        </arc>
+    </net>
+</pnml>
