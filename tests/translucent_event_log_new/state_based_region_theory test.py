@@ -13,6 +13,7 @@ input_file_path = os.path.join("input_data", "running-example_tel.xes")
 log = import_tel(input_file_path)
 tel = tel_set_enabled(log)
 
+
 auto = utils.discover_annotated_automaton(tel)
 gviz = trans_vis_factory.apply(auto)
 trans_vis_factory.view(gviz) #show automaton
@@ -20,4 +21,8 @@ trans_vis_factory.view(gviz) #show automaton
 nett, im, fm = sb.petri_net_synthesis(auto)
 #
 gviz = vis_factory.apply(nett, im, fm)
+vis_factory.view(gviz)
+
+alpha_net, imm, fmm = alpha_miner.apply(log)
+gviz = vis_factory.apply(alpha_net, imm, fmm)
 vis_factory.view(gviz)
